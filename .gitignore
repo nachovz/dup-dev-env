@@ -84,7 +84,7 @@ Thumbs.db
 wp-content/*
 wp-content/plugins/*
 !wp-content/themes/
-!wp-content/themes/*.zip
+!wp-content/themes/keysoft/plugins/*.zip
 
 # ignore these plugins
 wp-content/plugins/hello.php
