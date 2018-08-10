@@ -16,3 +16,9 @@
 @import url("../keysoft/style.css");
 
 /* Below you can write your style */
+
+.logo img{
+ max-height: 44px;
+ width: auto;
+ max-width: 338px;
+}
