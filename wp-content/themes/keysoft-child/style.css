@@ -34,3 +34,7 @@
 .features-tabs > .active{
  display: flex !important;
 }
+
+.features-tabs .tab-image-container{
+ position: inherit !important;
+}
