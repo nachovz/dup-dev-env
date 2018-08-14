@@ -26,3 +26,16 @@
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
     background-color: #5555 !important;
 }
+
+.features-tabs .section-subheading {
+    margin-bottom: 30px;
+    margin-top: 5px;
+    text-align: left;
+    max-width: 450px;
+    /* float: left; */
+    line-height: 25px;
+}
+
+.features-tabs > .active{
+ display: flex;
+}
