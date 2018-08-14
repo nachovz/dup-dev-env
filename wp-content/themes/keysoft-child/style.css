@@ -37,4 +37,6 @@
 
 .features-tabs .tab-image-container{
  position: inherit !important;
+ top:auto !important;
+ right: auto !important;
 }
