@@ -28,14 +28,9 @@
 }
 
 .features-tabs .section-subheading {
-    margin-bottom: 30px;
-    margin-top: 5px;
-    text-align: left;
-    max-width: 450px;
-    /* float: left; */
-    line-height: 25px;
+    float: none !important;
 }
 
 .features-tabs > .active{
- display: flex;
+ display: flex !important;
 }
