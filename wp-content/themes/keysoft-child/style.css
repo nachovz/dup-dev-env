@@ -40,3 +40,9 @@
  top:auto !important;
  right: auto !important;
 }
+
+@media (max-width: 960px){
+ .tab-image-container{
+  display: none !important;
+ }
+}
