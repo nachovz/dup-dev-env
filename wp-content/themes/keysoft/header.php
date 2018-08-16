@@ -13,6 +13,7 @@
       <link href="#" class="css-color" rel="stylesheet">
    </head>
    <body <?php body_class();?>>
+      <?php if ( function_exists( 'gtm4wp_the_gtm_tag' ) ) { gtm4wp_the_gtm_tag(); } ?>
         <?php if ($redux_ThemeTek['tek-preloader']) { ?>
          <div id="preloader">
              <div class="spinner"></div>
