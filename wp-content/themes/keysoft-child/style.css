@@ -50,3 +50,7 @@
 .team-socials{
  display: none !important;
 }
+
+#testimonials{
+ min-height: 500px;
+}
