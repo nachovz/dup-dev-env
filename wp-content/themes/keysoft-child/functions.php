@@ -11,6 +11,9 @@
  * It is also available through the world-wide-web at this URL:
  * http://www.gnu.org/licenses/gpl-3.0.txt
  */
+ 
+@ini_set( 'upload_max_size' , '5M' );
+@ini_set( 'post_max_size', '5M');
 
 add_action( 'wp_enqueue_scripts', 'theme_enqueue_styles' );
 function theme_enqueue_styles() {
@@ -20,3 +23,4 @@ function theme_enqueue_styles() {
         array('parent-style')
     );
 }
+
