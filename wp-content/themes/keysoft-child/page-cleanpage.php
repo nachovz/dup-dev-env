@@ -12,11 +12,13 @@
 	<?php wp_head(); ?>
 </head>
 <body>
-<?php
-	while ( have_posts() ) : the_post();	
-		the_content();
-	endwhile;
-?>
-<?php wp_footer(); ?>
+    <div class="container">
+    <?php
+    	while ( have_posts() ) : the_post();	
+    		the_content();
+    	endwhile;
+    ?>
+    <?php wp_footer(); ?>
+</div>
 </body>
 </html>
