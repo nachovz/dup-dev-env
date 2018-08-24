@@ -20,7 +20,6 @@
 .logo img{
  max-height: 44px;
  width: auto;
- max-width: 338px;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
