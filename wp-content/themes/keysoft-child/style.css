@@ -53,3 +53,7 @@
 #testimonials{
  min-height: 500px;
 }
+
+#technician-container > div > div > div > div.team-content{
+    padding:37px !important;
+}
